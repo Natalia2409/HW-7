@@ -46,3 +46,10 @@ button:focus {
 	border-radius: 20px;
 	font-size: 25px;
 }
+
+@media(max-width: 600px) {
+	#result1, #result2, #result3, #result4 {
+		font-size: 20px;
+		width: 400px;
+	}
+}
